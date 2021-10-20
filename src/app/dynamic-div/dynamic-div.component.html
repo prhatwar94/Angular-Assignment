@@ -1,0 +1,19 @@
+<button
+  mat-icon-button
+  color="primary"
+  aria-label="Example icon button with a home icon"
+  [routerLink]="'/home'"
+>
+  <mat-icon>home</mat-icon>
+</button> 
+<div class="example-viewport" infiniteScroll
+[infiniteScrollDistance]="2"
+[infiniteScrollThrottle]="50"
+(scrolled)="onScroll()">
+  <div *ngFor="let number of numbers" class="number">
+    <button mat-stroked-button color="primary" (click)="onButtonClick(number)">
+      Button {{ number }}
+    </button>
+  </div>
+</div>
+

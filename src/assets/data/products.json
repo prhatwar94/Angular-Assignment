@@ -1,0 +1,206 @@
+{
+    "products":  [
+        {
+          "price": 12499,
+          "productName": "Poco f1 ",
+          "src": "https://m.media-amazon.com/images/I/51SXBFFu9wL._SL1000_.jpg"
+        },
+        {
+          "price": 10521,
+          "productName": "SAMSUNG Galaxy F12 ",
+          "src": "https://m.media-amazon.com/images/I/51SXBFFu9wL._SL1000_.jpg"
+        },
+        {
+          "price": 6499,
+          "productName": "Infinix Smart 5A",
+          "src": "https://m.media-amazon.com/images/I/51SXBFFu9wL._SL1000_.jpg"
+        },
+        {
+          "price": 7499,
+          "productName": "POCO C3",
+          "src": "https://m.media-amazon.com/images/I/51SXBFFu9wL._SL1000_.jpg"
+        },
+        {
+          "price": 6500,
+          "productName": "Red Mi 4A",
+          "src": "https://m.media-amazon.com/images/I/51SXBFFu9wL._SL1000_.jpg"
+        },
+        {
+          "price": 33000,
+          "productName": "OnePlus Nord",
+          "src": "https://m.media-amazon.com/images/I/51SXBFFu9wL._SL1000_.jpg"
+        },
+        {
+          "price": 15000,
+          "productName": "Moto G",
+          "src": "https://m.media-amazon.com/images/I/51SXBFFu9wL._SL1000_.jpg"
+        },
+        {
+          "price": 20999,
+          "productName": "Vivo Y20",
+          "src": "https://m.media-amazon.com/images/I/51SXBFFu9wL._SL1000_.jpg"
+        },
+        {
+          "price": 15999,
+          "productName": "Samsung Galaxy F10",
+          "src": "https://m.media-amazon.com/images/I/51SXBFFu9wL._SL1000_.jpg"
+        },
+        {
+          "price": 11499,
+          "productName": "Poco f1 ",
+          "src": "https://m.media-amazon.com/images/I/51SXBFFu9wL._SL1000_.jpg"
+        },
+        {
+          "price": 10521,
+          "productName": "SAMSUNG Galaxy F12 ",
+          "src": "https://m.media-amazon.com/images/I/51SXBFFu9wL._SL1000_.jpg"
+        },
+        {
+          "price": 6499,
+          "productName": "Infinix Smart 5A",
+          "src": "https://m.media-amazon.com/images/I/51SXBFFu9wL._SL1000_.jpg"
+        },
+        {
+          "price": 7499,
+          "productName": "POCO C3",
+          "src": "https://m.media-amazon.com/images/I/51SXBFFu9wL._SL1000_.jpg"
+        },
+        {
+          "price": 6500,
+          "productName": "Red Mi 4A",
+          "src": "https://m.media-amazon.com/images/I/51SXBFFu9wL._SL1000_.jpg"
+        },
+        {
+          "price": 33000,
+          "productName": "OnePlus Nord",
+          "src": "https://m.media-amazon.com/images/I/51SXBFFu9wL._SL1000_.jpg"
+        },
+        {
+          "price": 15000,
+          "productName": "Moto G",
+          "src": "https://m.media-amazon.com/images/I/51SXBFFu9wL._SL1000_.jpg"
+        },
+        {
+          "price": 20999,
+          "productName": "Vivo Y20",
+          "src": "https://m.media-amazon.com/images/I/51SXBFFu9wL._SL1000_.jpg"
+        },
+        {
+          "price": 15999,
+          "productName": "Samsung Galaxy F10",
+          "src": "https://m.media-amazon.com/images/I/51SXBFFu9wL._SL1000_.jpg"
+        }
+        ,
+        {
+          "price": 10499,
+          "productName": "Poco f1 ",
+          "src": "https://m.media-amazon.com/images/I/51SXBFFu9wL._SL1000_.jpg"
+        },
+        {
+          "price": 10521,
+          "productName": "SAMSUNG Galaxy F12 ",
+          "src": "https://m.media-amazon.com/images/I/51SXBFFu9wL._SL1000_.jpg"
+        },
+        {
+          "price": 6499,
+          "productName": "Infinix Smart 5A",
+          "src": "https://m.media-amazon.com/images/I/51SXBFFu9wL._SL1000_.jpg"
+        },
+        {
+          "price": 7499,
+          "productName": "POCO C3",
+          "src": "https://m.media-amazon.com/images/I/51SXBFFu9wL._SL1000_.jpg"
+        },
+        {
+          "price": 6500,
+          "productName": "Red Mi 4A",
+          "src": "https://m.media-amazon.com/images/I/51SXBFFu9wL._SL1000_.jpg"
+        },
+        {
+          "price": 33000,
+          "productName": "OnePlus Nord",
+          "src": "https://m.media-amazon.com/images/I/51SXBFFu9wL._SL1000_.jpg"
+        },
+        {
+          "price": 15000,
+          "productName": "Moto G",
+          "src": "https://m.media-amazon.com/images/I/51SXBFFu9wL._SL1000_.jpg"
+        },
+        {
+          "price": 20999,
+          "productName": "Vivo Y20",
+          "src": "https://m.media-amazon.com/images/I/51SXBFFu9wL._SL1000_.jpg"
+        },
+        {
+          "price": 15999,
+          "productName": "Samsung Galaxy F10",
+          "src": "https://m.media-amazon.com/images/I/51SXBFFu9wL._SL1000_.jpg"
+        },
+        {
+          "price": 9499,
+          "productName": "Poco f1 ",
+          "src": "https://m.media-amazon.com/images/I/51SXBFFu9wL._SL1000_.jpg"
+        },
+        {
+          "price": 10521,
+          "productName": "SAMSUNG Galaxy F12 ",
+          "src": "https://m.media-amazon.com/images/I/51SXBFFu9wL._SL1000_.jpg"
+        },
+        {
+          "price": 6499,
+          "productName": "Infinix Smart 5A",
+          "src": "https://m.media-amazon.com/images/I/51SXBFFu9wL._SL1000_.jpg"
+        },
+        {
+          "price": 7499,
+          "productName": "POCO C3",
+          "src": "https://m.media-amazon.com/images/I/51SXBFFu9wL._SL1000_.jpg"
+        },
+        {
+          "price": 6500,
+          "productName": "Red Mi 4A",
+          "src": "https://m.media-amazon.com/images/I/51SXBFFu9wL._SL1000_.jpg"
+        },
+        {
+          "price": 33000,
+          "productName": "OnePlus Nord",
+          "src": "https://m.media-amazon.com/images/I/51SXBFFu9wL._SL1000_.jpg"
+        },
+        {
+          "price": 15000,
+          "productName": "Moto G",
+          "src": "https://m.media-amazon.com/images/I/51SXBFFu9wL._SL1000_.jpg"
+        },
+        {
+          "price": 20999,
+          "productName": "Vivo Y20",
+          "src": "https://m.media-amazon.com/images/I/51SXBFFu9wL._SL1000_.jpg"
+        },
+        {
+          "price": 15999,
+          "productName": "Samsung Galaxy F10",
+          "src": "https://m.media-amazon.com/images/I/51SXBFFu9wL._SL1000_.jpg"
+        },
+        {
+          "price": 33000,
+          "productName": "OnePlus Nord",
+          "src": "https://m.media-amazon.com/images/I/51SXBFFu9wL._SL1000_.jpg"
+        },
+        {
+          "price": 15000,
+          "productName": "Moto G",
+          "src": "https://m.media-amazon.com/images/I/51SXBFFu9wL._SL1000_.jpg"
+        },
+        {
+          "price": 20999,
+          "productName": "Vivo Y20",
+          "src": "https://m.media-amazon.com/images/I/51SXBFFu9wL._SL1000_.jpg"
+        },
+        {
+          "price": 15999,
+          "productName": "Samsung Galaxy F10",
+          "src": "https://m.media-amazon.com/images/I/51SXBFFu9wL._SL1000_.jpg"
+        }
+      ]
+    
+}

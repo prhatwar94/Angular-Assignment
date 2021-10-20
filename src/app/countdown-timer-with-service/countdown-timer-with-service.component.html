@@ -1,0 +1,31 @@
+<button
+  mat-icon-button
+  color="primary"
+  aria-label="Example icon button with a home icon"
+  [routerLink]="'/home'"
+>
+  <mat-icon>home</mat-icon>
+</button>
+<!--
+  <button (click)='startTimer()'>Start Timer</button>
+  <button (click)='pauseTimer()'>Pause</button>
+  <p>{{timeLeft}} Seconds Left....</p>  -->
+
+<div style="border: 4px solid; padding: 5px">
+  <div style="display: flex">
+    <div style="width: 50%; border: 2px solid; margin: 5px">
+      <app-timer-display></app-timer-display>
+    </div>
+    <div style="width: 50%; border: 2px solid; margin: 5px">
+      <app-input></app-input>
+    </div>
+  </div>
+  <div style="display: flex">
+    <div style="width: 50%; margin: 5px">
+      <app-log></app-log>
+    </div>
+    <div style="width: 50%; margin: 5px">
+      <app-count></app-count>
+    </div>
+  </div>
+</div>

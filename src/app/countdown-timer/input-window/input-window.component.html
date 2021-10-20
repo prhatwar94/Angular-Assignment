@@ -1,0 +1,33 @@
+
+  <div style="margin: 70px;">
+    <form [formGroup]="timerForm" (ngSubmit)="onStart()">
+    <div>
+      <label style="margin-right: 20px;">Enter Timer Limit</label>
+      <!-- <input type="number" #timeInput> -->
+      <input type="number" formControlName="time" [disabled]="timeInputDisable">
+
+    </div>
+    <div style="margin-left: 130px;margin-top: 20px;">
+      <span style="margin-right: 5px;">     
+        <button mat-raised-button color="primary" type="submit" *ngIf="isStartEvent" [disabled]="timerForm.invalid">
+          Start
+        </button>
+        <button mat-raised-button color="primary" (click)="onPause()"   *ngIf="!isStartEvent">
+            Pause
+          </button> 
+      </span>
+      <button mat-raised-button color="primary" (click)="onResetBtn()"  > 
+        Reset
+    </button>
+    </div>
+    </form>
+     
+    
+    
+    <p *ngFor="let time of pauseTime">
+      Paused at {{time.pauseTime}}
+    </p>
+  </div>  
+
+
+

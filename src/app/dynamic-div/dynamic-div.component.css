@@ -1,0 +1,17 @@
+.number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: 5px;
+    border: 2px solid maroon;
+    box-sizing: border-box;
+}
+.example-viewport {
+    height: 100%;
+    width:100%;
+   
+   
+  }
