@@ -6,25 +6,22 @@
 >
   <mat-icon>home</mat-icon>
 </button>
-<!--
-  <button (click)='startTimer()'>Start Timer</button>
-  <button (click)='pauseTimer()'>Pause</button>
-  <p>{{timeLeft}} Seconds Left....</p>  -->
+
 
 <div style="border: 4px solid; padding: 5px">
   <div style="display: flex">
-    <div style="width: 50%; border: 2px solid; margin: 5px">
+    <div class="topWindow">
       <app-timer-display></app-timer-display>
     </div>
-    <div style="width: 50%; border: 2px solid; margin: 5px">
+    <div class="topWindow">
       <app-input></app-input>
     </div>
   </div>
   <div style="display: flex">
-    <div style="width: 50%; margin: 5px">
+    <div class="bottomWindow">
       <app-log></app-log>
     </div>
-    <div style="width: 50%; margin: 5px">
+    <div class="bottomWindow">
       <app-count></app-count>
     </div>
   </div>

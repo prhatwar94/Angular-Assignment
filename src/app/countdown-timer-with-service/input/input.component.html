@@ -6,12 +6,12 @@
         <input type="number" formControlName="time" [disabled]="timeInputDisable">
   
       </div>
-      <div style="margin-left: 130px;margin-top: 20px;">
+      <div class="buttonArea">
         <span style="margin-right: 5px;">
           <!-- <button mat-raised-button color="primary"  (click)="onStart(timeInput.value)" *ngIf="isStartEvent">
             Start
           </button> -->
-          <button mat-raised-button color="primary" type="submit" *ngIf="isStartEvent">
+          <button mat-raised-button color="primary" type="submit" *ngIf="isStartEvent" [disabled]="timerForm.invalid">
             Start
           </button>
           <button mat-raised-button color="primary" (click)="onPause()"   *ngIf="!isStartEvent">

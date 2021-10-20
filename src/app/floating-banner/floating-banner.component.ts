@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./floating-banner.component.css']
 })
 export class FloatingBannerComponent implements OnInit {
-
+  bannerContent:string=' A floating banner text which keeps on rotating';
   constructor() { }
 
   ngOnInit(): void {

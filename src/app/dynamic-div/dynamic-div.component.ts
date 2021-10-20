@@ -16,7 +16,7 @@ numbers:any=[];
 
 
   ngOnInit(): void {
-    for(let i:number=100;i<=10;i++){
+    for(let i:number=1;i<=100;i++){
       this.numbers.push(i);
     }
   }

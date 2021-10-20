@@ -1,14 +1,14 @@
 import {
   Component,
   EventEmitter,
-  Input,
-  OnChanges,
+  Input,  
   OnInit,
-  Output,
-  SimpleChanges,
+  Output
+  
 } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
-import { ActivatedRoute, Router } from '@angular/router';
+import {  Router } from '@angular/router';
+
 import { PauseTime } from 'src/app/core/model/model';
 
 @Component({
@@ -32,13 +32,14 @@ export class InputWindowComponent implements OnInit {
   ngOnInit() {
     this.initiateTimerForm();
   }
+  /**Initialise timer Form */
   initiateTimerForm() {
     this.timerForm = this.formbuilder.group({
-      time: new FormControl(null,Validators.required),
+      time: new FormControl({value: '', disabled: this.timeInputDisable},Validators.required),
     });
   }
 
- 
+ /**On click of Start Buttton */
   onStart() {
     this.timerForm.controls.time.disable();
     this.timeInputDisable = true;
@@ -46,14 +47,15 @@ export class InputWindowComponent implements OnInit {
     this.isStartEvent = false;
     this.onTimerEvent({ event: 'start', progressNum: timeInput });
   }
+
+  /**On click of Pause Buttton */
   onPause() {
     this.isStartEvent = true;
     this.onTimerEvent({ event: 'pause' });
   }
  
-
-  onResetBtn() {    
- 
+ /**On click of Reset Buttton */
+  onResetBtn() {   
     let currentUrl = this.router.url;
     this.router.navigateByUrl('/', {skipLocationChange: true}).then(() => {
         this.router.navigate([currentUrl]);

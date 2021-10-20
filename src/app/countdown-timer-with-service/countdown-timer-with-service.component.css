@@ -1,0 +1,9 @@
+.topWindow{
+    width: 50%;
+     border: 2px solid;
+      margin: 5px
+}
+.bottomWindow{
+    width: 50%; 
+    margin: 5px
+}

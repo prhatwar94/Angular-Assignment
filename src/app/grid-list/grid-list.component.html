@@ -1,7 +1,7 @@
 <button mat-icon-button color="primary" aria-label="Example icon button with a home icon" [routerLink]="'/home'">
   <mat-icon>home</mat-icon>
 </button>
-<div style="text-align: right; margin-right: 200px; margin-top: 50px">
+<div class="filterArea">
   <mat-button-toggle-group
     name="fontStyle"
     aria-label="Font Style"
@@ -29,7 +29,7 @@
     </mat-select>
   </mat-form-field>
 </div>
-<div style="border: 5px solid; padding: 20px">
+<div class="productArea">
   <div class="grid" [ngClass]="{ list: layout === 'list' }">
     <mat-card *ngFor="let product of products" class="example-header-image">
       <div style="text-align: justify">

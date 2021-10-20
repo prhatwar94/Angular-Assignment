@@ -21,8 +21,7 @@ export class TimerWindowComponent implements OnInit, OnChanges {
   @Input()
   isPause!: boolean;
   @Input()
-  isStart!: boolean;
- 
+  isStart!: boolean; 
   
   @Output() pauseTime = new EventEmitter();
   progressNum = 1000;
@@ -31,11 +30,6 @@ export class TimerWindowComponent implements OnInit, OnChanges {
   isComplete = false;
 
   interval: any;
-
-  ngOnInit() {
-    this.timeCount = this.timeLeft;
-  }
-
   constructor() {}
   ngOnChanges(changes: SimpleChanges): void { 
     if (this.isStart) {
@@ -45,6 +39,9 @@ export class TimerWindowComponent implements OnInit, OnChanges {
       this.pauseTimer();
     }
  
+  }
+  ngOnInit() {    
+    this.timeCount = this.timeLeft;
   }
 
   startTimer() {

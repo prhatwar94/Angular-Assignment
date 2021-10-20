@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+
 import { Log } from 'src/app/core/model/model';
 
 @Component({
@@ -8,8 +9,7 @@ import { Log } from 'src/app/core/model/model';
 })
 export class LogWindowComponent implements OnInit {
   @Input()
-  dateLog!: Log[];
- date: Date | undefined;
+  dateLog!: Log[]; 
   constructor() { }
 
   ngOnInit(): void {

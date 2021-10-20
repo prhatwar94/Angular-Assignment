@@ -24,8 +24,7 @@ export class CountdownTimerComponent implements OnInit {
   setTimerInput(event: {
     progressNum: number;
     event: string;
-    _date: string;
-    isPauseEvent: boolean;
+   
   }) {
     if (event.event === 'start') {
       this.isStart = true;
@@ -41,6 +40,7 @@ export class CountdownTimerComponent implements OnInit {
     }
     this.count = event.progressNum;
   }
+  
   pauseEvent(isPause: boolean) {
     this.isPause = isPause;
   }

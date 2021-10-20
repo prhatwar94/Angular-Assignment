@@ -1,4 +1,5 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+
 import { Filter, Product } from '../core/model/model';
 import { HttpServiceService } from '../core/service/http-service.service';
 
