@@ -7,7 +7,7 @@ import { FloatingBannerComponent } from './floating-banner/floating-banner.compo
 import { GridListComponent } from './grid-list/grid-list.component';
 import { HomeComponent } from './home/home.component';
 import { StudentDataComponent } from './student-data/student-data.component';
-import { TimerComponent } from './timer/timer.component';
+
 
 const routes: Routes = [
   {path:'home', component: HomeComponent},
@@ -17,7 +17,6 @@ const routes: Routes = [
   {path:'route4', component: CountdownTimerWithServiceComponent},
   {path:'route5', component: StudentDataComponent},
   {path:'route6', component: DynamicDivComponent},
-  {path:'route7', component: TimerComponent},
   {path:'',redirectTo:'home',pathMatch:"full"}
 ];
 
