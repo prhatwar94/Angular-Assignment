@@ -25,7 +25,6 @@ import { CountWindowComponent } from './countdown-timer/count-window/count-windo
 import { LogWindowComponent } from './countdown-timer/log-window/log-window.component';
 import { InputWindowComponent } from './countdown-timer/input-window/input-window.component';
 import { TimerWindowComponent } from './countdown-timer/timer-window/timer-window.component';
-import { TimerComponent } from './timer/timer.component';
 import { HomeComponent } from './home/home.component';
 import { CountComponent } from './countdown-timer-with-service/count/count.component';
 import { InputComponent } from './countdown-timer-with-service/input/input.component';
@@ -52,8 +51,7 @@ const COMPONENTS = [
   CountWindowComponent,
   LogWindowComponent,
   InputWindowComponent,
-  TimerWindowComponent,
-  TimerComponent,
+  TimerWindowComponent,  
   HomeComponent,
   CountComponent,
   InputComponent,
